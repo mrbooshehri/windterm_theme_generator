@@ -1,11 +1,96 @@
-background: "#282a36"
-current_line: "#44475a"
-foreground: "#f8f8f2"
-comment: "#6272a4"
-cyan: "#8be9fd"
-green: "#50fa7b"
-orange: "#ffb86c"
-pink: "#ff79c6"
-purple: "#bd93f9"
-red: "#ff5555"
-yellow: "#f1fa8c"
+---
+## Dracula
+#background: "#282a36"
+#current_line: "#44475a"
+#foreground: "#f8f8f2"
+#comment: "#6272a4"
+#cyan: "#8be9fd"
+#purple: "#bd93f9"
+#red: "#282a36"
+#yellow: "#f1fa8c"
+
+# Gruvbox light
+background: "#FBF1C7"
+current_line: "#ebdbb2"
+foreground: "#7C6F64"
+comment: "#928374"
+black: "#FBF1C7"
+red: "#CC241D"
+green: "#98971A"
+yellow: "#D79921"
+blue: "#458588"
+magenta: "#B16286"
+cyan: "#689D6A"
+white: "#7C6F64"
+brightBlack: "#928374"
+brightRed: "#9D0006"
+brightGreen: "#79740E"
+brightYellow: "#B57614"
+brightBlue: "#076678"
+brightMagenta: "#8F3F71"
+brightCyan: "#427B58"
+brightWhite: "#3C3836"
+
+# Color of:
+#   - fold highlight > foreground
+#   - storage type > foreground
+#   - library function > foreground
+#   - library constant > foreground
+#   - library class/type > foreground
+#   - markup styling > foreground
+color_1: "{{ cyan }}"
+# Color of:
+#   - fold error > foreground
+#   - margin black > foreground
+color_2: "{{ red }}"
+# Color of:
+#   - line highlight > backgound
+color_3: "{{ blue }}"
+# Color of:
+#   - line modified > backgound
+#   - line unsaved > backgound
+color_4: "{{ yellow }}"
+# Color of:
+#   - line saved > backgound
+color_5: "{{ green }}"
+# Color of:
+#   - line wrapsymbol > foreground
+color_6: "{{ brightBlue }}"
+# Color of:
+#   - line saved > backgound
+color_7: "{{ Blue }}"
+# Color of:
+#   - margin number > backgound
+color_8: "{{ magenta }}"
+# Color of:
+#   - pair highlight > decorationForground
+color_9: "{{ blue }}"
+# Color of:
+#   - string > foreground
+#   - diff changed > foreground
+#   - entity name > foreground
+#   - markup list > foreground
+color_10: "{{ brightYellow }}"
+# Color of:
+#   - punctuation > foreground
+#   - class name > foreground
+#   - Inherited class > foreground
+#   - functoin name > foreground
+#   - tag attribute > foreground
+#   - diff inserted > foreground
+#   - matkup headings > foreground
+#   - matkup setxt header > foreground
+color_11: "{{ brightGreen }}"
+# Color of:
+#   - punctuation > foreground
+#   - keyword > foreground
+#   - storage > foreground
+#   - tag name > foreground
+#   - diff deleted > foreground
+#   - markup quote> foreground
+color_12: "{{ brightRed }}"
+# Color of:
+#   - function argument > foreground
+#   - markup inline > foreground
+#   - this self > foreground
+color_13: "{{ yellow }}"
